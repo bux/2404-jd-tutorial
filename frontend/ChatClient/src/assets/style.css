@@ -1,0 +1,26 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+body {
+  background-color: #222;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+}
